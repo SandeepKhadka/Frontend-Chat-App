@@ -66,7 +66,7 @@ const Button = styled.button`
 const Chat = () => {
   return (
     <ChatContainer>
-      <Header>This is a chat app</Header>
+      <Header>This is a chat app made in react</Header>
       <MessagesContainer>
         <Message isUser={false}>Hello! How are you?</Message>
         <Message isUser={true}>I'm good, thanks! How about you?</Message>
