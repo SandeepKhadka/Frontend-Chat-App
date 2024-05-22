@@ -5,7 +5,7 @@ const ChatContainer = styled.div`
   display: flex;
   flex-direction: column;
   height: 100vh;
-  width: 100vw;
+  /* width: 100vw; */
   background-color: #f0f0f0;
   font-family: Arial, sans-serif;
 `;
@@ -33,6 +33,7 @@ const Message = styled.div`
   border-radius: 10px;
   max-width: 60%;
   align-self: ${({ isUser }) => (isUser ? 'flex-end' : 'flex-start')};
+  color: black;
 `;
 
 const InputContainer = styled.div`
