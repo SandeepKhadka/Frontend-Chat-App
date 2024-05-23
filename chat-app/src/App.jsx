@@ -1,11 +1,12 @@
-import './App.css'
 import Chat from './UI/Chat'
+import Login from './UI/Login'
 
 function App() {
 
   return (
     <>
-      <Chat />
+      <Login />
+      {/* <Chat /> */}
     </>
   )
 }
