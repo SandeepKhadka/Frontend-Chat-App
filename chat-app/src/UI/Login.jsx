@@ -33,24 +33,16 @@ const Input = styled.input`
   font-size: 1rem;
 `;
 
-const Button = styled.button`
-  width: 100%;
-  padding: 0.75rem;
-  background-color: #4a90e2;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  font-size: 1rem;
-  cursor: pointer;
-  &:hover {
-    background-color: #357ab8;
-  }
-`;
 
 const Login = () => {
   return (
     <LoginContainer>
-    
+      <LoginForm>
+        <Title>Login</Title>
+        <Input type="text" placeholder="Username" />
+        <Input type="password" placeholder="Password" />
+        <Button type="submit">Log In</Button>
+      </LoginForm>
     </LoginContainer>
   );
 };
