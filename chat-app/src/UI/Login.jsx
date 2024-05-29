@@ -19,12 +19,16 @@ const LoginForm = styled.form`
   text-align: center;
 `;
 
-const Title = styled.h2`
-  margin-bottom: 1.5rem;
-  color: #333;
+
+
+const Input = styled.input`
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
 `;
-
-
 
 const Button = styled.button`
   width: 100%;
