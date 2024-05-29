@@ -1,7 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 
-
+const LoginContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+`;
 
 const LoginForm = styled.form`
   background-color: white;
