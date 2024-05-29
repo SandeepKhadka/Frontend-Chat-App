@@ -24,15 +24,21 @@ const Title = styled.h2`
   color: #333;
 `;
 
-const Input = styled.input`
+
+
+const Button = styled.button`
   width: 100%;
   padding: 0.75rem;
-  margin-bottom: 1rem;
-  border: 1px solid #ccc;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
   border-radius: 5px;
   font-size: 1rem;
+  cursor: pointer;
+  &:hover {
+    background-color: #357ab8;
+  }
 `;
-
 
 const Login = () => {
   return (
