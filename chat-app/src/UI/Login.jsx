@@ -54,7 +54,6 @@ const Login = () => {
         <Title>Login</Title>
         <Input type="text" placeholder="Username" />
         <Input type="password" placeholder="Password" />
-        <Button type="submit">Log In</Button>
       </LoginForm>
     </LoginContainer>
   );
